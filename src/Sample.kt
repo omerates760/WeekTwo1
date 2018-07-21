@@ -9,11 +9,12 @@ val mrb="ahmet -| me |hmet"
     val rowsText="""
         *
     *      *
+  *          *
  * * * * * * *
- *           *
- *           *
+ *   MR      *
+ *      TS   *
  * * * * * * *
-
+    *****
     """
     print(rowsText)
     // METNİ BİR YERİNİ KESMEK İÇİN TRIMMARGIN:
@@ -22,5 +23,5 @@ val mrb="ahmet -| me |hmet"
     //Compare to --->metin eşleştirme için kullanılır
     //sunsequence --> baş ve bitiş index verilir-siler
     // .? kullanmak yerine  !! kullan
-    
+
 }
